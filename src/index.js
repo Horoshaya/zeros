@@ -1,10 +1,10 @@
 module.exports = function getZerosCount(number) {
-	var zeros = 0;
+  let zeros = 0;
+  let numberToSolve = number;
 
-	while(number > 0) {
-		number = Math.floor(number/5);
-		zeros += number;
+	while(numberToSolve > 0) {
+		numberToSolve = Math.floor(numberToSolve/5);
+		zeros += numberToSolve;
 	}
-
 	return zeros;
-}
+} 
