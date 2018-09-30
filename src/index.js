@@ -1,6 +1,6 @@
 module.exports = function getZerosCount(number) {
-  let zeros = 0;
-  let numberToSolve = number;
+	let zeros = 0;
+	let numberToSolve = number;
 
 	while(numberToSolve > 0) {
 		numberToSolve = Math.floor(numberToSolve/5);
